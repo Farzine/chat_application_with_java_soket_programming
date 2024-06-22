@@ -18,10 +18,8 @@ public enum MessageType {
             return TEXT;
         } else if (value == 2) {
             return EMOJI;
-        } else if (value == 3) {
-            return FILE;
         } else {
-            return IMAGE;
+            return value == 3 ? FILE : IMAGE;
         }
     }
 }

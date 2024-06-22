@@ -106,9 +106,9 @@ public class Login extends JPanel {
         this.slide = new PanelSlide();
         this.setBackground(new Color(255, 255, 255));
         this.pic.setImage(new ImageIcon(this.getClass().getResource("/com/farzine/icon/login_image.png")));
-        this.jLabel2.setFont(new Font("sansserif", 0, 18));
+        this.jLabel2.setFont(new Font("sansserif", 0, 20));
         this.jLabel2.setForeground(new Color(66, 66, 66));
-        this.jLabel2.setText("Chat Application");
+        this.jLabel2.setText("Whisper");
         this.pic.setLayer(this.jLabel2, JLayeredPane.DEFAULT_LAYER);
         GroupLayout picLayout = new GroupLayout(this.pic);
         this.pic.setLayout(picLayout);
@@ -117,12 +117,12 @@ public class Login extends JPanel {
         this.jLabel1.setBackground(new Color(32, 140, 215));
         this.jLabel1.setOpaque(true);
         this.jPanel1.setBackground(new Color(32, 140, 215));
-        this.jPanel2.setBackground(new Color(255, 255, 255));
-        this.slide.setBackground(new Color(255, 255, 255));
+        this.jPanel2.setBackground(new Color(0, 0, 0));
+        this.slide.setBackground(new Color(0, 0, 0));
         GroupLayout slideLayout = new GroupLayout(this.slide);
         this.slide.setLayout(slideLayout);
         slideLayout.setHorizontalGroup(slideLayout.createParallelGroup(Alignment.LEADING).addGap(0, 256, 32767));
-        slideLayout.setVerticalGroup(slideLayout.createParallelGroup(Alignment.LEADING).addGap(0, 318, 32767));
+        slideLayout.setVerticalGroup(slideLayout.createParallelGroup(Alignment.LEADING).addGap(0, 330, 32767));
         GroupLayout jPanel2Layout = new GroupLayout(this.jPanel2);
         this.jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(jPanel2Layout.createParallelGroup(Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addContainerGap().addComponent(this.slide, -1, -1, 32767).addContainerGap()));

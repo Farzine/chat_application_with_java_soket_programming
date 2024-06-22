@@ -45,9 +45,9 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('36', 'dara', '123');
-INSERT INTO `user` VALUES ('37', 'raven', '123');
-INSERT INTO `user` VALUES ('38', 'china', '123');
+INSERT INTO `user` VALUES ('1', 'farzine', '123');
+INSERT INTO `user` VALUES ('2', 'rakib', '123');
+INSERT INTO `user` VALUES ('3', 'siam', '123');
 
 -- ----------------------------
 -- Table structure for user_account
@@ -67,6 +67,6 @@ CREATE TABLE `user_account` (
 -- ----------------------------
 -- Records of user_account
 -- ----------------------------
-INSERT INTO `user_account` VALUES ('36', 'dara', '', null, '', '1');
-INSERT INTO `user_account` VALUES ('37', 'raven', '', null, '', '1');
-INSERT INTO `user_account` VALUES ('38', 'china', '', null, '', '1');
+INSERT INTO `user_account` VALUES ('1', 'farzine', '', null, '', '1');
+INSERT INTO `user_account` VALUES ('2', 'rakib', '', null, '', '1');
+INSERT INTO `user_account` VALUES ('3', 'siam', '', null, '', '1');
